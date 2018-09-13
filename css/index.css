@@ -201,3 +201,61 @@
     margin-right: 1px;
   }
   /* today 部分 end */
+
+  /* like 部分 start */
+  .like-title h3 {
+    float: left;
+    font-size: 18px;
+    line-height: 38px;
+    padding-right: 200px;
+    background: url(../images/like.png) no-repeat right center;
+    color: #666; 
+  }
+  .like-title a {
+    float: right;
+    font-size: 12px;
+    line-height: 38px;
+    padding-right: 20px;
+    background: url(../images/refresh.png) no-repeat right center;
+    color: #666;
+  }
+  .like-content li {
+    float: left;
+  }
+  .like-content {
+    border: 1px solid #ededed;
+    overflow: hidden;
+  }
+  .like-content a {
+    display: block;
+    width: 201px;
+    padding-bottom: 10px;
+  }
+  .like-content a:hover .description {
+    color: #C81623;
+  }
+  .like-content-img {
+    padding: 20px 35px 10px;
+  }
+  .like-content-wrapper {
+    padding: 0 35px;
+  }
+  .like-content li:not(:last-of-type) .like-content-wrapper {
+    border-right: 1px solid #ededed;
+  }
+  .like-content .description {
+    font-size: 12px;
+    line-height: 18px;
+    color: #666;
+  }
+  .like-content .price {
+    color: #C81623;
+  }
+  .like-content .price i {
+    font-size: 12px;
+  }
+  .like-content .price span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  /* like 部分 end */
