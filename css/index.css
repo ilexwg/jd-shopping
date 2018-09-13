@@ -154,3 +154,31 @@
     background-position: 0 -275px;
   }
   /* main 部分 end */
+
+  /* today 部分 start */
+  .today {
+    padding: 10px 0 20px;
+  }
+  .today-left {
+    float: left;
+  }
+  .today-left a {
+    display: block;
+    width: 210px;
+    height: 151px;
+    background: url(../images/today.png) no-repeat;
+  }
+  .today-right {
+    position: relative;
+    float: right;
+    width: 1000px;
+    overflow: hidden;
+  }
+  .today-right ul {
+    width: 410%;
+  }
+  .today-right li {
+    float: left;
+    margin-right: 1px;
+  }
+  /* today 部分 end */
