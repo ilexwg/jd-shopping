@@ -259,3 +259,113 @@
     line-height: 20px;
   }
   /* like 部分 end */
+
+  /* life 部分 start */
+  .life {
+    margin-top: 20px;
+  }
+  .life-title {
+    font-size: 18px;
+    line-height: 35px;
+  }
+  .life-content {
+    border: 1px solid #ededed;
+    height: 405px;
+  }
+  .life-content-left {
+    float: left;
+    height: 405px;
+    overflow: hidden;
+  }
+  .life-content-left li {
+    float: left;
+    background-color: #f7f7f7;
+    border-right: 1px solid #ededed;
+  }
+  .life-content-left h3 {
+    color: #666;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 1px dashed #ededed;
+    margin: 0 20px;
+  }
+  .life-content-left h4 {
+    color: #666;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  .life-content-left p {
+    color: #666;
+  }
+  .life-content-left a p:last-of-type {
+    color: #C81623;
+  }
+  .life-content-left-new {
+    width: 403px;
+  }
+  .life-content-left-new-phone,
+  .life-content-left-good-recommand,
+  .life-content-left-brand-jordan {
+    display: block;
+    padding: 58px 0 72px 44px;
+    border-bottom: 1px solid #ededed;
+  }
+  .life-content-left-new-phone {
+    background: url(../images/phone.png) no-repeat right bottom;
+  }
+  .life-content-left-good-recommand {
+    background: url(../images/good.png) no-repeat right bottom;
+  }
+  .life-content-left-good-find {
+    background: url(../images/good2.png) no-repeat right bottom;
+  }
+  .life-content-left-new-coupon,
+  .life-content-left-new-seckill,
+  .life-content-left-brand-cloth,
+  .life-content-left-brand-week {
+    float: left;
+    width: 191px;
+    padding: 40px 0 44px 10px;
+  }
+  .life-content-left-new-coupon {
+    border-right: 1px solid #ededed;
+    background: url(../images/coupon.png) no-repeat right bottom;
+  }
+  .life-content-left-new-seckill {
+    background: url(../images/seckill.png) no-repeat right bottom;
+  }
+  .life-content-left .life-content-left-good {
+    width: 228px;
+    background-color: #fff;
+  }
+  .life-content-left-good-find {
+    display: block;
+    padding: 40px 0 44px 10px;
+  }
+  .life-content-left-brand {
+    width: 403px;
+  }
+  .life-content-left-brand-cloth {
+    border-right: 1px solid #ededed;
+    background: url(../images/shoe.png) no-repeat right 30px;
+  }
+  .life-content-left-brand-jordan {
+    background: url(../images/jordan.png) no-repeat 240px bottom;
+  }
+  .life-content-left-brand-week {
+    background: url(../images/week.png) no-repeat right bottom;    
+  }
+  .life-content-right {
+    float: left;
+    width: 171px;
+    height: 405px;
+  }
+  .life-content-right li {
+    float: left;
+    width: 85px;
+    height: 57px;
+  }
+  /* life 部分 end */

@@ -412,6 +412,9 @@ em {
   /* top-banner 部分 end */
 
   /* footer 部分 start */
+  .footer {
+    margin-top: 20px;
+  }
   .footer-top-slogan {
     position: relative;
     width: 100%;
