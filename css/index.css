@@ -1,0 +1,156 @@
+@charset "UTF-8";
+  /* main 部分 start */
+  .main-slide {
+    position: relative;
+    float: left;
+    width: 730px;
+    height: 454px;
+    margin: 12px 0 0 220px;
+  }
+  .main-slide ul {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .main-slide li {
+    float: left;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    margin: 0 2px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+    background-color: #3e3e3e;
+    cursor: pointer;
+  }
+  .main-slide .current {
+    background-color: #C81623;
+  }
+  .arrow a {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 62px;
+    background-color: rgba(0, 0, 0, .1);
+    color: #fff;
+    text-align: center;
+    font: 400 22px/62px "simsun";
+  }
+  .arrow a:hover {
+    background-color: rgba(0, 0, 0, .3);
+  }
+  .arrow .arrow-left {
+    left: 0;
+    border-radius: 0 10px 10px 0;
+  }
+  .arrow .arrow-right {
+    right: 0;
+    border-radius: 10px 0 0 10px;
+  }
+  .main-news {
+    float: right;
+    width: 250px;
+    height: 466px;
+  }
+  .main-news-top {
+    width: 248px;
+    height: 372px;
+    margin: 12px 0 5px;
+    border: 1px solid #e4e4e4;
+    overflow: hidden;
+  }
+  .main-news-top-faster {
+    height: 163px;
+    border-bottom: 1px dashed #e8e8e8;
+  }
+  .main-news-top-faster-title {
+    height: 32px;
+    padding: 0 15px;
+    border-bottom: 1px dotted #e4e4e4;
+    line-height: 32px;
+  }
+  .main-news-top-faster-title h2 {
+    float: left;
+    font: 400 16px/32px "microsoft yahei";
+  }
+  .main-news-top-faster-title a {
+    float: right;
+    font-family: consolas;
+  }
+  .main-news-top-faster-content {
+    padding: 5px 0 0 15px;
+  }
+  .main-news-top-faster-content li {
+    height: 24px;
+    line-height: 24px;
+  }
+  .main-news-top-faster-content span {
+    font-weight: 700;
+    margin-right: 5px;
+  }
+  .main-news-top-money li {
+    box-sizing: border-box;
+    width: 62px;
+    height: 70px;
+    float: left;
+    border: 1px solid #e8e8e8;
+    border-top: 0;
+    border-left: 0;
+  }
+  .main-news-top-money li:nth-of-type(4n+4) {
+    border-right: 0;
+  }
+  .main-news-top-money a {
+    position: relative;
+    display: block;
+    width: 62px;
+    height: 70px;
+    padding-top: 40px;
+    text-align: center;
+    line-height: 30px;
+  }
+  .main-news-top-money i {
+    position: absolute;
+    top: 13px;
+    left: 18px;
+    width: 25px;
+    height: 25px;
+    background: url(../images/fly.png) no-repeat;
+  }
+  .main-news-top-money .main-news-top-money-icon2 {
+    background-position: 0 -25px;
+  }
+  .main-news-top-money .main-news-top-money-icon3 {
+    background-position: 0 -50px;
+  }
+  .main-news-top-money .main-news-top-money-icon4 {
+    background-position: 0 -75px;
+  }
+  .main-news-top-money .main-news-top-money-icon5 {
+    background-position: 0 -100px;
+  }
+  .main-news-top-money .main-news-top-money-icon6 {
+    background-position: 0 -125px;
+  }
+  .main-news-top-money .main-news-top-money-icon7 {
+    background-position: 0 -150px;
+  }
+  .main-news-top-money .main-news-top-money-icon8 {
+    background-position: 0 -175px;
+  }
+  .main-news-top-money .main-news-top-money-icon9 {
+    background-position: 0 -200px;
+  }
+  .main-news-top-money .main-news-top-money-icon10 {
+    background-position: 0 -225px;
+  }
+  .main-news-top-money .main-news-top-money-icon11 {
+    background-position: 0 -250px;
+  }
+  .main-news-top-money .main-news-top-money-icon12 {
+    background-position: 0 -275px;
+  }
+  /* main 部分 end */
